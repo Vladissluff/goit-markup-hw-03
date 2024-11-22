@@ -139,13 +139,11 @@ ol {
   flex-direction: column;
 }
 .hero-image {
-  height: 600px;
   background: #2e2f42;
 }
 
 .hero-text {
   max-width: 496px;
-  height: 120px;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
@@ -162,7 +160,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
-  padding: 16 32;
+  padding: 16px 32px;
   border-radius: 4px;
   margin-top: 48px;
   border: none;
@@ -262,7 +260,6 @@ ol {
 }
 .portfolio-list {
   width: calc((100% - 48px) / 3);
-  height: 420px;
   display: flex;
   flex-direction: column;
 }
@@ -287,6 +284,6 @@ ol {
   color: #f4f4fd;
 }
 .footer-p {
-  width: 264px;
+  max-width: 264px;
   color: #f4f4fd;
 }
